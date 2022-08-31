@@ -1,0 +1,65 @@
+{
+    "name": "Darren Chang JR",
+    "experience": [
+        {
+            "title": "Research Assistant",
+            "location": "HKU Software Security and System Lab",
+            "description": "Blockchain Security: develop a fuzzing tool for testing against Ethereum nodes",
+            "duration": "Sep 2022 - current"
+        },
+        {
+            "title": "Summer Intern",
+            "location": "Genius Development",
+            "description": "Taught introductory web development to middle-school children and teens",
+            "duration": "Jun 2022 - Aug 2022"
+        }
+    ],
+    "education": [
+        {
+            "program": "Bachelor of Engineering (CompSc)",
+            "location": "The University of Hong Kong (HKU)",
+            "description": "minor in Finance",
+            "duration": "Sep 2021 - current"
+        },
+        {
+            "program": "Cambridge International A-Level",
+            "location": "Tunku Abdul Rahman University College (TAR UC)",
+            "description": "4A* (Mathematics, Biology, Chemistry, Physics)",
+            "duration": "May 2019 - Nov 2020"
+        }
+    ],
+    "project": [
+        {
+            "name": "This page!!",
+            "stack": [
+                "React",
+                "Bootstrap"
+            ],
+            "description": "I wanted to learn React.js",
+            "link": "https://github.com/DarrenChangJR/DarrenChangJR.github.io",
+            "time": "Aug 2022"
+        },
+        {
+            "name": "Osmosis Account Generator",
+            "stack": [
+                "Python",
+                "Pyppeteer (port of Node.js puppeteer)",
+                "1secmail API"
+            ],
+            "description": "A fully automated Cloudflare-bot-detection-bypassing tool for generating free accounts on the learning platform - Osmosis",
+            "link": "https://github.com/DarrenChangJR/osmosis_acc_generator",
+            "time": "Apr 2022"
+        },
+        {
+            "name": "Session Bookmarker",
+            "stack": [
+                "JavaScript",
+                "CSS",
+                "HTML"
+            ],
+            "description": "A cross-browser extension for bookmarking a whole window; URLs stored locally",
+            "link": "https://github.com/DarrenChangJR/Session-Bookmarker",
+            "time": "Aug 2021"
+        }
+    ]
+}
