@@ -9,7 +9,7 @@ function Experience() {
     return (
         <div className="d-grid mx-5">
             <button className="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#experience-block">Experience</button>
-            <div className="collapse show card-body w3-center" id="experience-block" aria-expanded="true">
+            <div className="collapse show card-body w3-center" id="experience-block">
                 {boxes}
             </div>
         </div>
@@ -24,7 +24,7 @@ function Education() {
     return (
         <div className="d-grid mx-5">
             <button className="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#education-block">Education</button>
-            <div className="collapse card-body w3-center" id="education-block" aria-expanded="true">
+            <div className="collapse card-body w3-center" id="education-block">
                 {boxes}
             </div>
         </div>
@@ -39,7 +39,7 @@ function Project() {
     return (
         <div className="d-grid mx-5">
             <button className="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#project-block">Project</button>
-            <div className="collapse card-body w3-center" id="project-block" aria-expanded="true">
+            <div className="collapse card-body w3-center" id="project-block">
                 {boxes}
             </div>
         </div>

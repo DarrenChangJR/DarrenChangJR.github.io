@@ -16,9 +16,9 @@ ul {
   text-align: left;
 }  
 
-.heading, #darkForm {
-  display: inline-block;
-}  
+.blog-text {
+  white-space: pre-wrap;
+}
 
 .at-sign {
   padding: 2em;

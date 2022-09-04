@@ -1,0 +1,14 @@
+{
+    "posts": [
+        {
+            "title": "0th Post!",
+            "date": "2022-08-30",
+            "text": "Dear all,\n\nI welcome you to my platform of monologue, where only my thoughts are mutually known by you and me. What started as a simple page project has now become a simple page project with a blog. Sharing my personal thoughts with unknown strangers on the internet makes me... cautious of my choice of words, everything around me started being cancellable since I started using Twitter.\n\nYes, I am a Computer Science student who has gotten used to zero-based numbering, hence \"0th Post\". Lame nerd joke.\n\nThank you for reading, I hope you enjoy my future entries. I look forward to it."
+        },
+        {
+            "title": "Go to sleep.",
+            "date": "2022-09-02",
+            "text": "My vigour is getting out of hand. From whence do I gain the energy necessary to skip sleep? Beats me. Lying on my bed awaiting slumber, I can't help but think that I could have spent these extra minutes being productive.\n\nI twist and turn,\nand go for a wee.\nSleep is tomorrow's concern,\ntime for a coding spree.\n\nI am concerned about my physical health for obvious reasons - it's bad enough that my day is mostly spent sitting and typing, yet here I am, with a body (and mind) reluctant to sleep. Yet perhaps just as important is my productivity; I dread the mind-numbing lethargy sleep deprivation brings. Whatever will become of me if this... condition persists?"
+        }
+    ]
+}
