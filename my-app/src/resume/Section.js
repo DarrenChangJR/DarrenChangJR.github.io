@@ -9,7 +9,7 @@ function Experience() {
     return (
         <div className="d-grid mx-5">
             <button className="btn btn-lg" type="button" data-bs-toggle="collapse" data-bs-target="#experience-block">Experience</button>
-            <div className="collapse show card-body w3-center" id="experience-block">
+            <div className="collapse card-body w3-center" id="experience-block">
                 {boxes}
             </div>
         </div>

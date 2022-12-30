@@ -14,10 +14,16 @@ code {
 
 ul {
   text-align: left;
-}  
+}
 
 .blog-text {
   white-space: pre-wrap;
+}
+
+.poem-text {
+  white-space: pre-wrap;
+  font-family: 'URW Chancery L';
+  font-size: large;
 }
 
 .at-sign {

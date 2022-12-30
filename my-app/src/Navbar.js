@@ -19,7 +19,10 @@ function Navbar() {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li className="nav-item">
-                                <Link to="/blog" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Writings</Link>
+                                <Link to="/blog" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Blog</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/poetry" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Poetry</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="/resume" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Resume</Link>
