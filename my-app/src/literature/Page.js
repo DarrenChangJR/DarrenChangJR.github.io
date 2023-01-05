@@ -6,9 +6,9 @@ function Page(props) {
         const navButtons = [];
 
         if (props.counter)
-            navButtons.push(<Link to={`../${props.counter - 1}`} className="page-link" key="0" >Previous</Link>);
+            navButtons.push(<Link to={`../${props.counter - 1}`} className="page-link btn m-4" key="0" >Previous</Link>);
         if (props.counter !== props.maxcounter - 1) {
-            navButtons.push(<Link to={`../${props.counter + 1}`} className="page-link" key="1" >Next</Link>);
+            navButtons.push(<Link to={`../${props.counter + 1}`} className="page-link btn m-4" key="1" >Next</Link>);
         }
 
         return (
