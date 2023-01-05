@@ -26,13 +26,14 @@ function Navbar() {
                                     Literature
                                 </span>
                                 <ul className="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li><Link to="/literature" className="dropdown-item" onClick={closeOffcanvas} >Learning & Notes</Link></li>
-                                    <li><Link to="/literature" className="dropdown-item" onClick={closeOffcanvas} >Poems</Link></li>
+                                    <li className="nav-item">
+                                        <Link to="/literature" className="ps-2 nav-link navbar-collapse" onClick={closeOffcanvas} >Learning & Notes</Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/literature" className="ps-2 nav-link navbar-collapse" onClick={closeOffcanvas} >Poems</Link>
+                                    </li>
                                 </ul>
                             </li>
-                            {/* <li className="nav-item">
-                                <Link to="/literature" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Literature</Link>
-                            </li> */}
                             <li className="nav-item">
                                 <Link to="/resume" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Resume</Link>
                             </li>
