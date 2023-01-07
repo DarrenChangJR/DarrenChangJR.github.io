@@ -2,7 +2,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import Page from "./Page";
 import data from './poetry.json';
 
-function Literature() {
+function Poems() {
     const poems = [], routes = [];
     for (let i = data.poems.length - 1; i >= 0; i--) {
         poems.push(
@@ -38,4 +38,4 @@ function Literature() {
     );
 }
 
-export default Literature;
+export default Poems;

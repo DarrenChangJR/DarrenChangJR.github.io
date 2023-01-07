@@ -4,7 +4,7 @@
         {
             "title": "Research Assistant",
             "location": "HKU Software Security and System Lab",
-            "description": "Blockchain Security: develop a fuzzing tool for testing against Ethereum nodes",
+            "description": "Blockchain Security: static analysis on the specifications & implementation of the EVM (geth); analyse CVEs and research publications of high-severity vulnerabilities in the EVM",
             "duration": "Sep 2022 - current"
         },
         {
