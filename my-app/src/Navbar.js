@@ -34,9 +34,6 @@ function Navbar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <Link to="/resume" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Resume</Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
