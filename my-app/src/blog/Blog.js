@@ -22,7 +22,7 @@ function Blog() {
 
     function Index() {
         return (
-            <div className="list-group" >
+            <div className="list-group mx-auto mw-md" >
                 {posts}
             </div>
         );

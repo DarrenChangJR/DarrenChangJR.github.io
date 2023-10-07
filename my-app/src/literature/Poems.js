@@ -11,17 +11,19 @@ function Poems() {
                 <Link to={`${i}`} >
                     {data.poems[i].title}
                 </Link>
-            </div>);
+            </div>
+        );
 
         routes.push(
             <Route path={`${i}`} key={i} element={
                 <Page {...data.poems[i]} counter={i} maxcounter={data.poems.length} />
-            } />);
+            } />
+        );
     }
 
     function Index() {
         return (
-            <div className="list-group" >
+            <div className="list-group mx-auto mw-md" >
                 {poems}
             </div>
         );

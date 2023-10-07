@@ -30,7 +30,7 @@ function Page(props) {
 
     return (
         <div className="position-relative pb-5 mb-2">
-            <div className="card px-3 mx-1 my-3" >
+            <div className="card px-3 my-3 mx-auto mw-md" >
                 <h2 className="text-center font-monospace" >{props.title}</h2>
                 <Image />
                 <span className="blog-text pb-1" >{props.text}</span>
