@@ -72,9 +72,9 @@ function Page(props) {
                 <Poem poem={props.lines} />
                 <div className="position-absolute end-0 bottom-0 m-2" >{props.author}</div>
             </div>
-            <div className="position-relative card px-3 mx-1 my-3" >
+            {/* <div className="position-relative card px-3 mx-1 my-3" >
                 <Commentary />
-            </div>
+            </div> */}
             <Pagination />
         </div>
     );
