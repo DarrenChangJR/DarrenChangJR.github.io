@@ -18,9 +18,9 @@ function Navbar() {
                     </div>
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link to="/blog" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Blog</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item dropdown">
                                 <span className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Literature
