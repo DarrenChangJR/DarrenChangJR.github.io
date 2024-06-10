@@ -1,8 +1,8 @@
+// App.js
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './Navbar';
-import Blog from './blog/Blog';
-import Poems from './literature/Poems';
-import Learning from './literature/Learning';
+import Visualisation from './visualisation/Visualisation';
+import Literature from './literature/Literature';
 
 function App() {
   return (
@@ -10,9 +10,8 @@ function App() {
       <HashRouter>
         <Navbar />
         <Routes>
-          {/* <Route path="/blog/*" element={<Blog />} /> */}
-          <Route path="/literature/learning" element={<Learning />} />
-          <Route path="/literature/poems/*" element={<Poems />} />
+          <Route path="/visualisation/*" element={<Visualisation />} />
+          <Route path="/literature/*" element={<Literature />} />
           <Route path="/" element={<Navigate replace to="/literature/poems" />} />
         </Routes>
       </HashRouter>

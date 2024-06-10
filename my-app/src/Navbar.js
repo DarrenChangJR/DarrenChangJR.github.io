@@ -18,9 +18,6 @@ function Navbar() {
                     </div>
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            {/* <li className="nav-item">
-                                <Link to="/blog" className="nav-link navbar-collapse" onClick={closeOffcanvas} >Blog</Link>
-                            </li> */}
                             <li className="nav-item dropdown">
                                 <span className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                                     Literature
@@ -31,6 +28,16 @@ function Navbar() {
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/literature/poems" className="ps-2 nav-link navbar-collapse" onClick={closeOffcanvas} >Poems</Link>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li className="nav-item dropdown">
+                                <span className="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Visualisation
+                                </span>
+                                <ul className="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                    <li className="nav-item">
+                                        <Link to="/visualisation/property-prices" className="ps-2 nav-link navbar-collapse" onClick={closeOffcanvas} >Property Prices</Link>
                                     </li>
                                 </ul>
                             </li>
