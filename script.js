@@ -227,7 +227,6 @@ class PoetryBlog {
         // Update content
         document.getElementById('poem-title').textContent = poem.title;
         document.getElementById('poem-author').textContent = poem.author || '';
-        document.getElementById('poem-date').textContent = poem.date || '';
         
         // Format poem content
         const content = document.getElementById('poem-content');
