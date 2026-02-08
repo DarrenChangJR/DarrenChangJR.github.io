@@ -210,10 +210,6 @@ class PoetryBlog {
             const menuPath = this.basePath || '/';
             window.history.pushState({ view: 'menu' }, '', menuPath);
         }
-        
-        // Update page title and meta
-        this.updatePageMeta('Poetry Blog - A Collection of Beautiful Verses', 
-                          'A collection of beautiful poetry - explore verses that touch the soul');
     }
 
     showPoem(index, updateHistory = true, isNavigation = false) {
@@ -275,7 +271,7 @@ class PoetryBlog {
         }
 
         // Update page title and meta for SEO
-        const pageTitle = `${poem.title}${poem.author ? ' by ' + poem.author : ''} - Poetry Blog`;
+        const pageTitle = `${poem.title}${poem.author ? ' by ' + poem.author : ''}`;
         const contentText = typeof poem.content === 'string' ? poem.content : (Array.isArray(poem.content) ? poem.content.join('\n') : '');
         const pageDescription = contentText.substring(0, 160).replace(/\n/g, ' ') + '...';
         this.updatePageMeta(pageTitle, pageDescription);
