@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A collection of beautiful poetry - explore verses that touch the soul">
+    <meta name="keywords" content="poetry, poems, verse, literature, writing">
+    <meta name="author" content="Poetry Blog">
+    <meta property="og:title" content="Poetry Blog - A Collection of Beautiful Verses">
+    <meta property="og:description" content="Explore a curated collection of poetry that speaks to the heart">
+    <meta property="og:type" content="website">
+    <title>Poetry Blog - A Collection of Beautiful Verses</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <h1 class="site-title">
+                <a href="#" data-view="menu">Verses</a>
+            </h1>
+            <button class="dark-mode-toggle" id="dark-mode-toggle" aria-label="Toggle dark mode">
+                <span class="toggle-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Menu View -->
+        <section id="menu-view" class="view active">
+            <div class="container">
+                <ul class="poem-list" id="poem-list">
+                    <!-- Poems will be dynamically loaded here -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Poem View -->
+        <section id="poem-view" class="view">
+            <div class="container">
+                <article class="poem-article">
+                    <header class="poem-header">
+                        <h2 class="poem-title" id="poem-title"></h2>
+                        <p class="poem-author" id="poem-author"></p>
+                        <time class="poem-date" id="poem-date"></time>
+                    </header>
+                    <div class="poem-content-wrapper">
+                        <div class="poem-content" id="poem-content"></div>
+                    </div>
+                    <nav class="poem-navigation" id="poem-navigation">
+                        <a href="#" class="nav-link prev-link" id="prev-link" aria-label="Previous poem">
+                            <span class="nav-arrow">←</span>
+                            <span class="nav-text">Previous</span>
+                        </a>
+                        <a href="#" class="nav-link next-link" id="next-link" aria-label="Next poem">
+                            <span class="nav-text">Next</span>
+                            <span class="nav-arrow">→</span>
+                        </a>
+                    </nav>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
