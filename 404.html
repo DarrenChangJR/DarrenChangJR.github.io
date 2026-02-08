@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages 404 handler for client-side routing
+        // This file is served when a path doesn't exist
+        // We redirect to index.html which will handle the routing
+        const path = window.location.pathname;
+        const search = window.location.search;
+        const hash = window.location.hash;
+        
+        // Extract base path (everything before the last segment)
+        // For /repo-name/poem-slug, we want /repo-name/index.html
+        // For /poem-slug, we want /index.html
+        const pathParts = path.split('/').filter(p => p);
+        let basePath = '';
+        
+        if (pathParts.length > 1) {
+            // We're in a subdirectory, get the base
+            basePath = '/' + pathParts[0];
+        }
+        
+        // Redirect to index.html which will handle the routing
+        window.location.replace(basePath + '/index.html' + search + hash);
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
